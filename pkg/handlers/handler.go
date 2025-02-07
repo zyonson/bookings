@@ -3,9 +3,9 @@ package handlers
 import (
 	"net/http"
 
-	"github.com/zyonson/go-course/pkg/config"
-	"github.com/zyonson/go-course/pkg/models"
-	"github.com/zyonson/go-course/pkg/render"
+	"github.com/zyonson/bookings/pkg/config"
+	"github.com/zyonson/bookings/pkg/models"
+	"github.com/zyonson/bookings/pkg/render"
 )
 
 // Repo the repository used by the handlers
