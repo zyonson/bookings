@@ -68,25 +68,36 @@
 
         <div class="row">
             <div class="col">
-                <h1>This will be the reservation page</h1>
+                <h1 class="mt-5">Search for Availability</h1>
+                <form action="/reservation.html" method="post">
+                    <div class="form-group">
+                        <label for="start_date">Starting Date</label>
+                        <input type="text" class="form-control" id="startDateHelp" name="start_date"
+                            aria-describedby="start_date">
+                        <small id="startDateHelp" class="form-text text-muted">Enter your starting date in the form of
+                            YYYY-MM-DD</small>
+                    </div>
+
+                    <button type="submit" class="btn btn-primary">Submit</button>
+
+                </form>
             </div>
         </div>
 
-        <footer class="my-footer">
-            <div class="row">
-                <div class="col">
-                    left
-                </div>
-
-                <div class="col">
-                    center
-                </div>
-
-                <div class="col">
-                    right
-                </div>
+        <div class="row my-footer">
+            <div class="col">
+                left
             </div>
-        </footer>
+
+            <div class="col">
+                center
+            </div>
+
+            <div class="col">
+                right
+            </div>
+        </div>
+
 
         <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
             integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
